@@ -4,7 +4,7 @@
 '''
 @Author: LonelyMarch
 @LastEditors: LonelyMarch
-@LastEditTime: 2021-02-15 22:03:36
+@LastEditTime: 2021-02-15 22:37:02
 @FilePath: /LeetCode/2021_02_15_#485_最大连续1的个数.py
 @version:
 @Descripttion:
@@ -44,5 +44,7 @@ class Solution:
     #             time = 0
     #     times.append(time)
     #     return max(times)
+
+
 print(Solution.findMaxConsecutiveOnes([1, 0, 1, 1, 0, 1]))
 print(Solution.findMaxConsecutiveOnes([0, 0]))
